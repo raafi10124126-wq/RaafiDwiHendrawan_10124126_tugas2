@@ -58,4 +58,4 @@ include 'includes/header.php';
 <h1><?= e(t('edit_title')) ?></h1>
 <?php if (isset($errors['form'])): ?><div class="alert alert-error"><?= e($errors['form']) ?></div><?php endif; ?>
 <?php include 'includes/form_barang.php'; ?>
-<?php include 'includes/footer.php'; ?>
+<?php?>
